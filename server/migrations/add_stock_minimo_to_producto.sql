@@ -1,0 +1,2 @@
+ALTER TABLE producto
+ADD COLUMN stock_minimo INT NOT NULL DEFAULT 0;
