@@ -1,0 +1,37 @@
+# Ignorar node_modules, ya que puede ser regenerado con npm install
+node_modules/
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos temporales y de sistema
+*.tmp
+*.temp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de base de datos locales si existen
+*.sqlite
+*.db
+
+# Ignorar archivos grandes de imágenes no esenciales (puedes ajustar según necesidad)
+client/public/background-pharmacy.jpg
+
+# Ignorar archivos de migraciones si no son necesarios para despliegue
+server/migrations/
+
+# Ignorar archivos SQL de scripts que no son necesarios para el código fuente
+scripts/
+
+# Ignorar archivos PDF o documentos grandes que no son parte del código
+*.pdf
+
+# Ignorar archivos de configuración local o IDE
+.vscode/
+.idea/
+
+# Ignorar node_modules en cliente y servidor si existen
+client/node_modules/
+server/node_modules/
